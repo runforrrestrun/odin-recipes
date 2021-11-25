@@ -1,0 +1,21 @@
+* {
+    color:white;
+  } 
+  div{background-color: blanchedalmond;}
+  *{background-color:black}
+  
+  h1 {text-align: center;}
+
+#title{background-color:white;color: black;}
+img {height: auto;
+width: 900px;
+height: 500px;
+}
+#link-ragu:link{color:red}
+#link-ragu:visited{color:tomato}
+#link-bechamel:link{color:red}
+#link-bechamel:visited{color:tomato}
+#link-lasagna{text-align: center;}
+.link-ragu{color: gold;}
+
+ 
