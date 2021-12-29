@@ -9,25 +9,26 @@
 body{background-image:url("../img/img1.jpg");
     background-size:cover;
   }
+ 
+#title{font-size: 70px;
+color:rgb(182, 10, 10);
 
-h1{text-align: center;
-  text-decoration: underline;
-  font-size: 40px;
-  }
+}
+
+
+h1{text-align: center;}
   
   #gif1{
     text-align: center;
     margin: 50px;
   } 
-#gif2{
-  width: 20%;
+#gif2{ text-align: center;
   height: 200px;
-  border: 3px solid white;
-  padding: 10px;
-  float:inline-end;
-  
-}
-.h1-page1{transform: translate(-160px, 20px);}
+  }
+  .gif2{height: 250px;
+  width: 300px;}
+
+ 
 
 #link-ragu:link{color:red}
 #link-ragu:visited{color:tomato}
@@ -56,22 +57,15 @@ margin:20px;}
     transition: font-size 1s ease 0.25s;
     transform: translate(-10px, 20px);}
   
-   
-  
-   .ingrediente{margin:30px;}
-  
-  .ingred{margin:50px;
-  }
+    .ingrediente{margin:30px;}
+   .ingred{margin:50px;}
     
-  h2{text-decoration: underline;}
-    
-    
-
-  #grid-container{
+     #grid-container{
     display: grid;
     grid-template-columns: auto auto ;
    grid-gap:300px 100px;
    justify-content: center; 
+   
   }
   
   #subtitle2{ text-align: start;}
