@@ -2,7 +2,8 @@
   color:whitesmoke;
 
   font-family: 'Times New Roman', Times, serif;
-  font-size: 25px; 
+  font-size: 25px;
+  font-weight: 800; 
 }
 
 body{background-image:url("../img/img1.jpg");
@@ -13,14 +14,20 @@ h1{text-align: center;
   text-decoration: underline;
   font-size: 40px;
   }
-   
+  
+  #gif1{
+    text-align: center;
+    margin: 50px;
+  } 
 #gif2{
   width: 20%;
   height: 200px;
   border: 3px solid white;
-  padding: 20px;
+  padding: 10px;
   float:inline-end;
+  
 }
+.h1-page1{transform: translate(-160px, 20px);}
 
 #link-ragu:link{color:red}
 #link-ragu:visited{color:tomato}
@@ -28,21 +35,15 @@ h1{text-align: center;
 #link-bechamel:visited{color:tomato}
 
 
-#button1{
-  width: 100vw;
-  height: 6.5vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;}
+
 
   
 .subtitle{
   text-align: center;
   margin: 80px;
+  
 }
-  button{
+  #button2{
      
     border: 20px solid black;
     border-radius: 5px;
@@ -51,37 +52,83 @@ h1{text-align: center;
     font-weight: 700;
     text-align: center;
     transition: font-size 1s ease 0.25s;
-  transform: translate(90px, 20px);}
+    transform: translate(-10px, 20px);}
   
-    button:hover {
-    font-size:30px;
-    cursor: pointer;}
+   
   
    .ingrediente{margin:30px;}
   
   .ingred{margin:50px;
   }
     
-    h2{text-decoration: underline;}
+  h2{text-decoration: underline;}
     
-    .flex{display:flex;
-      flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  align-items: center;}
+    
 
   #grid-container{
-    margin:10px;
-    height: 600px;
     display: grid;
     grid-template-columns: auto auto ;
-   grid-gap:300px 150px; 
+   grid-gap:300px 100px;
+   justify-content: center; 
   }
+  
   #subtitle2{ text-align: start;}
+  
   #contact{
     display:grid;
     margin: 50px;
   }
+  
+  
+  .link-list1{color:red;}
+  .link-list1:hover{color:salmon;}
+  .link-list2{color:red;}
+  .link-list2:hover{color:salmon;}
+  .link-list3{color:red;}
+  .link-list3:hover{color:salmon;}
+  .link-list4{color:red;}
+  .link-list4:hover{color:salmon;}
+  
+  #link-list{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 200px;
+    justify-content: space-around;
+    align-content:space-between ;
+    }
+    
+  
+  .image{ position: relative;
+  width: 200px;
+  }
+  
+  .image-img{ display: block;
+  width:200px;
+  height: 200px;
+  }
+  
+  .img-overlay{position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.6);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;  
+}
+
+.img-overlay:hover{
+  opacity: 1;
+}
+.text1{font-weight: bolder;
+font-size: 18px;
+}
+
   
     
     
